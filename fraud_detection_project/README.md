@@ -17,25 +17,25 @@ This project uses machine learning and secure preprocessing to detect fraudulent
   - `decision_tree_pipeline.joblib`
 
   ## 📦 Installation
-# Create and activate a virtual environment
+## Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate      # On Windows: venv\Scripts\activate
 
-# Install required libraries
+## Install required libraries
 pip install -r requirements.txt
 
 ## Usage
-# 🧠 For training and prediction (labeled data):
+## 🧠 For training and prediction (labeled data):
 python fraud_detection.py sample_data.csv
 
-# 🔍 For prediction only (unlabeled data):
+## 🔍 For prediction only (unlabeled data):
 python fraud_detection.py unseen_data.csv
 
 ## 🧪 Testing
 Make sure you are in the right directory to execute the unit tests.
 cd /c/Users/your_computer_username/Capstone_CIDM-6395/fraud_detection_project
 
-Then eexute the scripts:
+Then exute the scripts:
 pytest tests/
 or
 pytest -p no:warnings
