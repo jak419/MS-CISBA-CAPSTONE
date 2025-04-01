@@ -65,6 +65,7 @@ Click "Create repository"
 4. Add and Commit Your Files
 	git add .
 	git commit -m "Initial commit: Fraud detection pipeline with tests"
+	git commit -m "Database integration commit: Fraud detection pipeline with tests"
 	
 5. Link Local Repo to GitHub Repo. Back in your terminal:
 	git remote add origin https://github.com/jak419/MS-CISBA-CAPSTONE.git
