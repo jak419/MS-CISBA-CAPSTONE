@@ -1,5 +1,5 @@
 # 🛡️ Fraud Detection Pipeline
-This project uses machine learning and secure preprocessing to detect fraudulent bank transactions. This is a **production-ready fraud detection system** using a Decision Tree classifier with a Scikit-learn pipeline. It is designed to process bank transactions and predict fraudulent activity.
+This project uses machine learning and secure preprocessing to detect fraudulent bank transactions. This is a **production-ready fraud detection system** using a Decision Tree classifier with a Scikit-learn pipeline. It is designed to process bank transactions and predict fraudulent activity. 
 
 ---
 
