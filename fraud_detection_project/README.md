@@ -16,32 +16,41 @@ This project uses machine learning and secure preprocessing to detect fraudulent
   - `roc_curve.png`
   - `decision_tree_pipeline.joblib`
 
-  ## 📦 Installation
-## Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate      # On Windows: venv\Scripts\activate
 
-## Install required libraries
-pip install -r requirements.txt
+## 📦 Installation
+1. **Create and Activate a virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate      # On Windows: venv\Scripts\activate
+
+2. **Install required libraries**
+   ```bash
+   pip install -r requirements.txt
 
 ## Usage
-## 🧠 For training and prediction (labeled data):
-python fraud_detection.py sample_data.csv
+3. **🧠 For training and prediction (labeled data)**
+      ```bash
+   python fraud_detection.py sample_data.csv
 
-## 🔍 For prediction only (unlabeled data):
-python fraud_detection.py unseen_data.csv
+4. **🔍 For prediction only (unlabeled data)**
+      ```bash
+   python fraud_detection.py unseen_data.csv
 
-## Usage (Testing program on from data in database). Use SQLite DB
-python fraud_detection.py transactions.db --db
+5. **🧼 Usage (Testing program on from data in database). Use SQLite DB**
+      ```bash
+   python fraud_detection.py transactions.db --db
 
-## Saving results back to SQLite
-python fraud_detection.py transactions.db --db --save-db --output-db transactions.db
+6. **💾 Saving results back to SQLite**
+      ```bash
+   python fraud_detection.py transactions.db --db --save-db --output-db transactions.db
 
 ## 🧪 Testing
-👉 Make sure you are in the right directory to execute the unit tests.
-cd /c/Users/your_computer_username/Capstone_CIDM-6395/fraud_detection_project
+7. **👉 Make sure you are in the right directory to execute the unit tests.**
+      ```bash
+   cd /c/Users/your_computer_username/Capstone_CIDM-6395/fraud_detection_project
 
-Then exute the scripts:
-pytest tests/
-or
-pytest -p no:warnings
+8. **Then exute the scripts:**
+      ```bash
+    pytest tests/
+    pytest -p no:warnings
+
