@@ -28,11 +28,11 @@ This project builds an end-to-end fraud detection application with the following
 ## 📬 Get in Touch
 
 - 📧 Email: john.anokye@yahoo.com 
-- 🌐 LinkedIn: [linkedin.com/in/johnanokye]
-- 📁 GitHub: [github.com/jak419]
+- 🌐 LinkedIn: [linkedin.com/in/johnanokye](https://linkedin.com/in/johnanokye)
+- 📁 GitHub: [github.com/jak419](https://github.com/jak419)
 
 If you're an employer, collaborator, or fellow data enthusiast, feel free to explore the code, run the pipeline, and connect with me!
 
 ---
 
-> 🚀 *This repository is the culmination of real-world applied knowledge in analytics, data science, and software engineering. I hope it reflects the depth and versatility I bring to data-driven problem-solving.* 
+> 🚀 *This repository is the culmination of real-world applied knowledge in analytics, data science, security practices and software engineering. I hope it reflects the depth and versatility I bring to data-driven problem-solving.* 
