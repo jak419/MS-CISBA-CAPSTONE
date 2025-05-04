@@ -129,4 +129,3 @@ def test_run_pipeline_with_unlabeled_data(tmp_path):
         run_pipeline(str(file_path))
     except Exception as e:
         pytest.fail(f"run_pipeline (unlabeled) crashed: {e}")
-
